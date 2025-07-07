@@ -1,5 +1,5 @@
-import Header from "./components/header";
-import Particles from "./components/particles";
+import Header from "@/app/components/header"
+import Particles from "@/app/components/particles"
 
 export default function Home() {
   return (
