@@ -9,16 +9,15 @@ import 'react-social-icons/email'
 export default function Home() {
   return (
     <div>
+      {/*Header*/}
+      <Header/>
+
+      {/*Background animation*/}
+      {/*<Particles  className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>*/}
+      <MatrixRain />
+      
       {/*Main*/}
-      <main  className="flex flex-col items-center justify-center h-screen text-center">
-
-        {/*Header*/}
-        <Header/>
-
-        {/*Background Particles*/}
-        {/*<Particles  className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>*/}
-        <MatrixRain />
-
+      <main  className="flex flex-col items-center justify-center h-screen text-center backdrop-blur-sm">
         {/*body*/}
         <div>
           <span  className="text-8xl">
