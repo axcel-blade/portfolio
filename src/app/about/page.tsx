@@ -5,12 +5,14 @@ import Particles from "@/app/components/particles"
 export default function About() {
     return (
         <div>
-            <Header/>
-            <Particles
-            className="absolute inset-0 -z-10 animate-fade-in"
-            quantity={100}
-            />
-            <h1>About</h1>
+            <main>
+                <Header/>
+                <Particles
+                className="absolute inset-0 -z-10 animate-fade-in"
+                quantity={100}
+                />
+                <h1>About</h1>
+            </main>
         </div>
     )
 }
