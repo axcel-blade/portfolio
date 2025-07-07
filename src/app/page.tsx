@@ -41,7 +41,7 @@ export default function Home() {
               </div>
           </div>
           <div className="py-4">
-            <a href="#" className="px-4 py-2 border border-white hover:bg-white hover:text-black">
+            <a href="#" className="px-4 py-2 border border-white rounded-lg hover:bg-white hover:text-black">
               Download CV
             </a>
           </div>
