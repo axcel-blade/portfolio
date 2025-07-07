@@ -18,7 +18,6 @@ export default function Home() {
       
       {/*Main*/}
       <main  className="flex flex-col items-center justify-center h-screen text-center backdrop-blur-sm">
-        {/*body*/}
         <div className="flex flex-col">
           <div className="flex flex-col items-center">
             <span  className="text-8xl">
