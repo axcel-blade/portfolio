@@ -7,10 +7,7 @@ export default function Experience() {
         <div>
             <main>
                 <Header/>
-                <Particles
-                className="absolute inset-0 -z-10 animate-fade-in"
-                quantity={100}
-                />
+                <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
                 <h1>Experience</h1>
             </main>
         </div>
