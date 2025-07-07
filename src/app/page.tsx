@@ -31,10 +31,10 @@ export default function Home() {
           {/*Socials*/}
           <div className="flex py-4 justify-center">
               <div className="px-4">
-                <SocialIcon network="github" url="https://github.com/axcel-blade"/>
+                <SocialIcon network="github" url="https://www.github.com/axcel-blade"/>
               </div>
               <div className="px-4">
-                <SocialIcon network="linkedin" url="www.linkedin.com/in/srikanth-fernando" />
+                <SocialIcon network="linkedin" url="https://www.linkedin.com/in/srikanth-fernando" />
               </div>
               <div className="px-4">
                 <SocialIcon network="email" url="mailto:srikanthfernando3@gmail.com" />
