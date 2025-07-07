@@ -19,18 +19,19 @@ export default function Home() {
       {/*Main*/}
       <main  className="flex flex-col items-center justify-center h-screen text-center backdrop-blur-sm">
         {/*body*/}
-        <div>
-          <span  className="text-8xl">
-            Joseph Fernando
-          </span>
-          <br />
-          <br />
-          <span  className="text-4xl">
-            Software Engineer
-          </span><br />
-
+        <div className="flex flex-col">
+          <div className="flex flex-col">
+            <span  className="text-8xl">
+              Joseph Fernando
+            </span>
+            <br />
+            <br />
+            <span  className="text-4xl">
+              Software Engineer
+            </span><br />
+          </div>
           {/*Socials*/}
-          <div className="flex py-4 justify-center">
+          <div className="flex flex-row py-4 justify-center">
               <div className="px-4">
                 <SocialIcon network="github" url="https://www.github.com/axcel-blade"/>
               </div>
