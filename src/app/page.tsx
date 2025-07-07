@@ -29,6 +29,7 @@ export default function Home() {
               Software Engineer
             </span><br />
           </div>
+
           {/*Socials*/}
           <div className="flex flex-row py-4 justify-center">
               <div className="px-4">
@@ -41,6 +42,8 @@ export default function Home() {
                 <SocialIcon network="email" url="mailto:srikanthfernando3@gmail.com" />
               </div>
           </div>
+
+          {/*Download CV*/}
           <div className="py-4 items-center">
             <a href="#" className="px-4 py-2 border border-white rounded-lg hover:bg-white hover:text-black">
               Download CV
