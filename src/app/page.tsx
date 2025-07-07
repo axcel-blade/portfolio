@@ -20,7 +20,7 @@ export default function Home() {
       <main  className="flex flex-col items-center justify-center h-screen text-center backdrop-blur-sm">
         {/*body*/}
         <div className="flex flex-col">
-          <div className="flex flex-col">
+          <div className="flex flex-col items-center">
             <span  className="text-8xl">
               Joseph Fernando
             </span>
@@ -42,7 +42,7 @@ export default function Home() {
                 <SocialIcon network="email" url="mailto:srikanthfernando3@gmail.com" />
               </div>
           </div>
-          <div className="py-4">
+          <div className="py-4 items-center">
             <a href="#" className="px-4 py-2 border border-white rounded-lg hover:bg-white hover:text-black">
               Download CV
             </a>
