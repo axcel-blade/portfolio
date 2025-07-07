@@ -1,5 +1,6 @@
 import Header from "@/app/components/header"
 import Particles from "@/app/components/particles"
+import MatrixRain from "@/app/components/MatrixRain"
 import { SocialIcon } from 'react-social-icons/component'
 import 'react-social-icons/github'
 import 'react-social-icons/linkedin'
@@ -15,7 +16,8 @@ export default function Home() {
         <Header/>
 
         {/*Background Particles*/}
-        <Particles  className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
+        {/*<Particles  className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>*/}
+        <MatrixRain />
 
         {/*body*/}
         <div>
