@@ -19,7 +19,7 @@ export default function About() {
                     <span className='text-8xl'>
                         About Me
                     </span>
-                </div>
+                </div><br />
                 <div className='max-w-screen-xl mx-auto px-4'>
                     <span className='text-2xl'>
                         I am a passionate and versatile Software Engineering graduate from Curtin University, Perth, Australia. As a lifelong learner and explorer of technology, my journey has been shaped by a deep curiosity for systems, software, and real-world problem-solving.<br/>
