@@ -14,13 +14,13 @@ export default function About() {
             <MatrixRain />
 
             {/*Body*/}
-            <div className=" flex flex-col max-w-screen-xl mx-auto px-4 text-center justify-center h-screen backdrop-blur-sm">
+            <div className="flex flex-col items-center justify-center h-screen backdrop-blur-sm text-center">
                 <div>
                     <span className='text-8xl'>
                         About Me
                     </span>
                 </div>
-                <div>
+                <div className='max-w-screen-xl mx-auto px-4'>
                     <span className='text-2xl'>
                         I am a passionate and versatile Software Engineering graduate from Curtin University, Perth, Australia. As a lifelong learner and explorer of technology, my journey has been shaped by a deep curiosity for systems, software, and real-world problem-solving.<br/>
 
