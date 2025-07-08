@@ -24,7 +24,7 @@ const experiences = [
         title: 'Computer Technician',
         company: 'Ferx Computers',
         date: 'July 2019 - February 2025',
-        description: 'managed fast-paced kitchen operations during peak hours, demonstrating ability to work efficiently under pressure while maintain quality standards',
+        description: 'Provided technical support and repairs for desktops and laptops. Diagnosed and resolved software, hardware, and network issues. Delivered on-site and remote customer assistance, improving satisfaction and repair turnaround time.',
     },
 ];
 
