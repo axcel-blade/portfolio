@@ -1,15 +1,30 @@
 import React from 'react'
 import Header from '@/app/components/header'
-import Particles from "@/app/components/particles"
+//import Particles from "@/app/components/particles"
+import MatrixRain from "@/app/components/MatrixRain"
+import ExperienceTimeline from "@/app/experience/ExperienceTimeline"
 
 export default function Experience() {
     return (
         <div>
-            <main>
-                <Header/>
-                <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
-                <h1>Experience</h1>
-            </main>
+            {/*Header*/}
+            <Header/>
+
+            {/*Background animation*/}
+            {/*<Particles  className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>*/}
+            <MatrixRain />
+
+            {/*Body*/}
+            <div className="flex flex-col items-center justify-center h-screen backdrop-blur-sm text-center">
+                <div>
+                    <span className='text-8xl'>
+                        Experience
+                    </span>
+                </div><br />
+                <div className='max-w-screen-xl mx-auto px-4'>
+                    <ExperienceTimeline />
+                </div>
+            </div>
         </div>
     )
 }
