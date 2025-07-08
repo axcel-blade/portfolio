@@ -30,7 +30,10 @@ const experiences = [
 
 export default function ExperienceTimeline() {
     return (
-        <div className="relative border-l-2 border-gray-200 dark:border-gray-700 pl-6 ml-4">
+        <div>
+        {/*For timeline border class attributes
+        ClassName="relative border-l-2 border-gray-200 dark:border-gray-700 pl-6 ml-4"
+        */}
         {experiences.map((exp, idx) => (
             <div key={idx} className="mb-10 relative">
             {/*<span className="absolute -left-[22px] top-1">
