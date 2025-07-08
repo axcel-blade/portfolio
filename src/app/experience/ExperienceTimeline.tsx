@@ -1,4 +1,5 @@
 'use client';
+//import { Briefcase } from 'lucide-react';
 
 const experiences = [
     {
@@ -32,6 +33,11 @@ export default function ExperienceTimeline() {
         <div className="relative border-l-2 border-gray-200 dark:border-gray-700 pl-6 ml-4">
         {experiences.map((exp, idx) => (
             <div key={idx} className="mb-10 relative">
+            {/*<span className="absolute -left-[22px] top-1">
+                <span className="flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full text-white">
+                <Briefcase size={14} />
+                </span>
+            </span>*/}
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{exp.title}</h3>
             <p className="text-sm text-gray-500">{exp.company} • {exp.date}</p>
             <p className="mt-2 text-gray-700 dark:text-gray-300">{exp.description}</p>
