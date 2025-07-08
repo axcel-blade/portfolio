@@ -16,8 +16,8 @@ export default function Home() {
       {/*<Particles  className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>*/}
       <MatrixRain />
       
-      {/*Main*/}
-      <main  className="flex flex-col items-center justify-center h-screen text-center backdrop-blur-sm">
+      {/*Body*/}
+      <div  className="flex flex-col items-center justify-center h-screen text-center backdrop-blur-sm">
         <div className="flex flex-col">
           <div className="flex flex-col items-center">
             <span  className="text-8xl">
@@ -50,7 +50,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
