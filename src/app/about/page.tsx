@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '@/app/components/header'
-import Particles from "@/app/components/particles"
+//import Particles from "@/app/components/particles"
 import MatrixRain from "@/app/components/MatrixRain"
 
 export default function About() {
