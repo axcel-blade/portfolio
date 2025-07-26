@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 {/*import Particles from "@/app/components/particles"*/}
 import MatrixRain from "../components/MatrixRain"
 import ExperienceTimeline from "../experience/ExperienceTimeline"
