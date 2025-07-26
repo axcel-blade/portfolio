@@ -11,6 +11,19 @@ interface ParticlesProps {
 	refresh?: boolean;
 }
 
+type Circle = {
+	x: number;
+	y: number;
+	translateX: number;
+	translateY: number;
+	size: number;
+	alpha: number;
+	targetAlpha: number;
+	dx: number;
+	dy: number;
+	magnetism: number;
+};
+
 export default function Particles({
 	className = "",
 	quantity = 30,
@@ -65,19 +78,6 @@ export default function Particles({
 				mouse.current.y = y;
 			}
 		}
-	};
-
-	type Circle = {
-		x: number;
-		y: number;
-		translateX: number;
-		translateY: number;
-		size: number;
-		alpha: number;
-		targetAlpha: number;
-		dx: number;
-		dy: number;
-		magnetism: number;
 	};
 
 	const resizeCanvas = () => {
