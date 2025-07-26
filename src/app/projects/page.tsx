@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '@/app/components/header'
-import Particles from "@/app/components/particles"
+import Particles from "../components/particles"
 
 export default function Projects() {
     return (
