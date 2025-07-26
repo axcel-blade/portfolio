@@ -1,6 +1,6 @@
-import Header from "./components/Header"
-//import Particles from "@/app/components/particles"
-import MatrixRain from "./components/MatrixRain"
+import Header from './components/header'
+{/*import Particles from "@/app/components/particles"*/}
+import MatrixRain from './components/MatrixRain'
 import { SocialIcon } from 'react-social-icons/component'
 import 'react-social-icons/github'
 import 'react-social-icons/linkedin'
