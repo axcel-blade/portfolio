@@ -7,13 +7,11 @@ import MatrixRain from '../components/MatrixRain'
 export default function Contact() {
     return (
         <div>
-            <main>
-                <Header/>
-                {/*Background animation*/}
-                <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
-                <MatrixRain/>
-                <h1>Contact</h1>
-            </main>
+            <Header/>
+            {/*Background animation*/}
+            <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
+            <MatrixRain/>
+            <h1>Contact</h1>
         </div>
     )
 }
