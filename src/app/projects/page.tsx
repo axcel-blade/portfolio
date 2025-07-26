@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
-{/*import Particles from '../components/Particles'*/}
+import Particles from '../components/Particles'
 
 export default function Projects() {
     return (
         <div>
             <main>
                 <Header/>
-                {/*<Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>*/}
+                <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100}/>
                 <h1>Projects</h1>
             </main>
         </div>
